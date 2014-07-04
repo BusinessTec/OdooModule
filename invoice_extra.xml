@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <report 
+            id="report_extra_invoice"
+            string="Factura Original"
+            model="account.invoice" 
+            report_type="qweb-pdf"
+            file="account.report_invoice_document_extra" 
+            name="account.report_invoice_document_extra" 
+        />
+    </data>
+</openerp>
